@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 
@@ -14,7 +13,7 @@ function App() {
         </button>
         <button
           onClick={() => {
-            if (count != 0) {
+            if (count !== 0) {
               setCount((prev) => {
                 return prev - 1;
               });
